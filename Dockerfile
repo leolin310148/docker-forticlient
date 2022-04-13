@@ -2,7 +2,9 @@ FROM ubuntu:18.04
 
 ENV VPNADDR \
     VPNUSER \
-    VPNPASS
+    VPNPASS \
+    ON_EXIT_REPORT_SLACK \
+    AUTO_RECONNECT
 
 ENV DEBIAN_FRONTEND=noninteractive
 
